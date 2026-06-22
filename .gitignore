@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
+wandb/
+runs/
+tensorboard/
+
+# Data
+data/*.bin
+data/*.idx
+data/*.npy
+data/*.npz
+data/raw/
+data/processed/
+
+# Checkpoints
+checkpoints/*
+!checkpoints/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Outputs
+outputs/*
+!outputs/.gitkeep
+samples/
+generated/
+
+# Cache
+.cache/
+*.cache
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Environment files
+.env
+.env.*
